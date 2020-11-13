@@ -11,6 +11,70 @@
  <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div class="container">
+            <nav id="navbar" class="nav">
+            <!-- For full backwards compatibility, the "ul" option is recommended so that the list will be displayed somewhat correctly in older browsers-->
+                <ul class="nav-list">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <section id="welcome-section">
+                <h1>Some nice quote/something short about developer</h1>
+            </section>
+            <section id="projects" class="projects-section">
+            <!-- So far, I'm going to have a static number of projects 3x2,"div" -->
+                <h2>These are some of my projects</h2><hr>
+            <div class="project-grid">
+                <!--In this part I'm going to use GRID method to place my project, 3x2 -->
+                <a href="#" target="_blank" class="project project-tile">
+                    <img class="project-image" scr="#" alt="description of a project">
+                    <p class="project-title">Project title</p>    
+                </a>
+                <a href="#" target="_blank" class="project project-tile">
+                    <img class="project-image" scr="#" alt="description of a project">
+                    <p class="project-title">Project title</p>    
+                </a>
+                <a href="#" target="_blank" class="project project-tile">
+                    <img class="project-image" scr="#" alt="description of a project">
+                    <p class="project-title">Project title</p>    
+                </a>
+                <a href="#" target="_blank" class="project project-tile">
+                    <img class="project-image" scr="#" alt="description of a project">
+                    <p class="project-title">Project title</p>    
+                </a>
+                <a href="#" target="_blank" class="project project-tile">
+                    <img class="project-image" scr="#" alt="description of a project">
+                    <p class="project-title">Project title</p>    
+                </a>
+                <a href="#" target="_blank" class="project project-tile">
+                    <img class="project-image" scr="#" alt="description of a project">
+                    <p class="project-title">Project title</p>    
+                </a>
+            </div>  
+            <a href="#" class="btn btn-show-all">Show all</a> 
+            </section>
+            <!-- START CONTACT SECTION -->
+            <section id="contact" class="contact-section">
+                <div class="contact-section-header">
+                    <h2>Let's work together...</h2>
+                    <p>How we can get in touch with you?</p>
+                </div>
+                <div class="contact-links"></div>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">e-mail</a>
+                <a href="#">phone</a>
+            </section>
+            <!-- END CONTACT SECTION -->
+            <!-- START FOOTER SECTION -->
+            <footer>
+                <p>Some info about me and my projects</p>
+                <p>&copy; All projects created by <span class=owner>AndzejK</span> using <span class="footer-user-stories">user stories</span> templates</p>
+            </footer>
+            <!-- END CONTACT SECTION -->
+        </div>
 
     </body>
 </html>
