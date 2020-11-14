@@ -1,0 +1,16 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: content-box;
+}
+
+img {
+    width: 30%;
+}
+
+.contact-links-svg {
+    max-width: 25px;
+}
