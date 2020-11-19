@@ -70,12 +70,35 @@ a, li {
     background: linear-gradient(to right, #484848, #111115);
     height: 100vh;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
     flex-direction: column;
     color: aliceblue;
+    
 }
 
 .welcome-quote {
     display: inline-block;
+}
+
+h1, .welcome-quote {
+    color: rgb(242, 241, 241);
+    font-size: 5.5rem;
+}
+
+h1 {
+    padding-top: 200px;
+}
+
+.welcome-style-for-job-position {
+    font-size: 3rem;
+    font-style: italic;
+    color: #a5072a;
+     
+}
+
+.welcome-quote
+{
+
+    font-size: 1.5rem;
 }
