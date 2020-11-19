@@ -19,7 +19,7 @@ img {
 /* Navigation - START */
 .nav {
     display: flex;
-    background-color: #cd1a41;
+    background-color: #a5072a;
     position: fixed;
     top: 0;
     width: 100%;
@@ -32,6 +32,7 @@ img {
     align-items: center;
     font-size: 25px;
     font-weight: 500;
+    margin-right: 30px;
 }
 
 .nav-list a {
@@ -48,7 +49,7 @@ a, li {
 } 
 
 .nav-list li:hover {
-    background-color: #455bc7;
+    background-color: rgba(220, 43, 43, 0.824);
     height: 100%;
 }
 .nav-list a {
@@ -62,5 +63,19 @@ a, li {
 
 /* WELCOME section - START */
 #welcome-section {
-    margin-top: 95px;
+    margin-top: 90px;
+    background: #484848;
+    background: -webkit-linear-gradient(left, #484848, #111115);
+    background: -moz-linear-gradient(left, #484848, #111115);
+    background: linear-gradient(to right, #484848, #111115);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.welcome-quote {
+    display: inline-block;
 }
