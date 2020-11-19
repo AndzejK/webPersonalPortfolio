@@ -16,6 +16,7 @@ img {
     max-width: 25px;
 }
 
+
 /* Navigation - START */
 .nav {
     display: flex;
@@ -25,6 +26,8 @@ img {
     width: 100%;
     height: 90px;
     justify-content: flex-end;
+    border-bottom: #111 solid  1px;
+    
 }
 
 .nav-list {
@@ -49,7 +52,7 @@ a, li {
 } 
 
 .nav-list li:hover {
-    background-color: rgba(220, 43, 43, 0.824);
+    background-color: #880622;
     height: 100%;
 }
 .nav-list a {
@@ -63,6 +66,7 @@ a, li {
 
 /* WELCOME section - START */
 #welcome-section {
+    scroll-margin-top: 90px; /* Solution to have right space, when is clicked a link, the info has */
     margin-top: 90px;
     background: #484848;
     background: -webkit-linear-gradient(left, #484848, #111115);
@@ -74,7 +78,7 @@ a, li {
     align-items: center;
     flex-direction: column;
     color: aliceblue;
-    
+   
 }
 
 .welcome-quote {
@@ -88,17 +92,29 @@ h1, .welcome-quote {
 
 h1 {
     padding-top: 200px;
+    padding-bottom: 20px;
 }
 
 .welcome-style-for-job-position {
     font-size: 3rem;
     font-style: italic;
     color: #a5072a;
-     
+    padding-bottom: 30px; 
 }
 
 .welcome-quote
 {
-
     font-size: 1.5rem;
+}
+
+.welcome-quote cite {
+    display: block;
+    text-align: right;
+    padding-top: 10px;
+}
+/* WELCOME section - END */
+
+/*PROJECTS  section - START */
+.projects-section {
+    scroll-margin-top: 90px;
 }
