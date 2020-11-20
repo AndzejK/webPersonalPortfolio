@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth; /*Smooth transition between section*/
 }
 
 body {
@@ -15,6 +16,7 @@ img {
 .contact-links-svg {
     max-width: 25px;
 }
+
 
 
 /* Navigation - START */
@@ -66,7 +68,7 @@ a, li {
 
 /* WELCOME section - START */
 #welcome-section {
-    scroll-margin-top: 90px; /* Solution to have right space, when is clicked a link, the info has */
+    scroll-margin-top: 90px; /* Solution to have right space, when is clicked on a link, the info appears completely*/
     margin-top: 90px;
     background: #484848;
     background: -webkit-linear-gradient(left, #484848, #111115);
@@ -116,5 +118,5 @@ h1 {
 
 /*PROJECTS  section - START */
 .projects-section {
-    scroll-margin-top: 90px;
+    scroll-margin-top: 90px; /*SOLUTION FOR OVERLAPING SECTIONS WHEN AN USER NAVIGATES MENU*/
 }
