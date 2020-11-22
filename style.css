@@ -17,8 +17,6 @@ img {
     max-width: 25px;
 }
 
-
-
 /* Navigation - START */
 .nav {
     display: flex;
@@ -119,4 +117,11 @@ h1 {
 /*PROJECTS  section - START */
 .projects-section {
     scroll-margin-top: 90px; /*SOLUTION FOR OVERLAPING SECTIONS WHEN AN USER NAVIGATES MENU*/
+    height: 100vh;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 20px;
 }
