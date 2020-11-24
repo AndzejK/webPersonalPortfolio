@@ -16,8 +16,9 @@ body {
 
 img {
     width: 100%;
-    object-fit:contain;
-    height: calc(100% - 6rem);
+    display: block;
+    object-fit:cover;
+    height: calc(100% - 6.5rem);
 }
 
 .contact-links-svg {
@@ -126,17 +127,20 @@ h1 {
     scroll-margin-top: 90px; /*SOLUTION FOR OVERLAPING SECTIONS WHEN AN USER NAVIGATES MENU*/
    /* height: 100vh;*/
     background: linear-gradient(0deg, rgba(1,16,54,1) 0%, rgba(0,66,125,1) 100%);
+    text-align: center;
+    padding-bottom: 6rem;
 }
 
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
-    
+    /* grid-template-rows: [line1] 450px [line2] 450px [end];*/
     grid-gap: 3rem;
+    align-items:center;
     margin: 0 auto;
     width: 100%;
     max-width: 1280px;
-
+    margin-bottom: 4rem;
 }
 
 h2 {
@@ -169,10 +173,28 @@ hr{
     background: -moz-linear-gradient(bottom, #484848, #111115);
     background: linear-gradient(to bottom, #484848, #111115);
     display: block;
-    height: 4rem;
+    height: fit-content;
     font-size: 1.7rem;
     color: var(--main-font-color);
     padding: 1.5rem 0.5rem;
     text-align: center;
    
+}
+
+/* GENERAL STYLE FOR BUTTONS*/
+
+.btn {
+    color: var(--main-font-color);
+    text-decoration: none;
+    background: #484848;
+    background: -webkit-linear-gradient(bottom, #484848, #111115);
+    background: -moz-linear-gradient(bottom, #484848, #111115);
+    background: linear-gradient(to bottom, #484848, #111115);
+    display: inline-block;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 1rem 1.5rem;
+    
+    
+
 }
