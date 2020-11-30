@@ -193,8 +193,17 @@ hr{
     box-shadow: 2px 2px 5px -1px #111;
 }
 
-.code{
-    content: ;
+.code {
+    opacity: 0;
+    
+}
+
+/* Selecting the child with the class .code*/
+.project-title:hover > .code {
+    opacity: 1;
+    color:#d70532;
+    transition: 0.6;
+    font-size: 1.3rem;
 }
 
 /* GENERAL STYLE FOR BUTTONS*/
