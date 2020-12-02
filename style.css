@@ -8,6 +8,7 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth; /*Smooth transition between section*/
+    
 }
 
 body {
@@ -23,12 +24,6 @@ img {
     object-fit:cover;
     height: calc(100% - 8rem);
     width: 100%;
-}
-
-.contact-links-svg {
-    max-width: 25px;
-    color: #fff;
-   
 }
 
 /* Navigation - START */
@@ -153,7 +148,7 @@ h1 {
     object-fit: cover;
 }
 h2 {
-    padding-top: 6rem;
+    
     color: var(--main-font-color);
     font-size: 3.5rem;
     text-align: center;
@@ -238,9 +233,14 @@ hr{
 
 /* CONTACT SECTION - START */
 .contact-section {
+    /*scroll-margin-top: 120px;*/
     background: linear-gradient(180deg, rgba(83,83,83,1) 0%, rgba(61,61,61,1) 100%);
     border-bottom: 3px solid #a5072a;
     color: #ffffff;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 
@@ -253,12 +253,71 @@ hr{
     
 }
 
-.contact-section-header p {
+.contact-section-header > p {
     font-style: italic;
     font-size: 1.4rem;
+    margin-bottom: 4rem;
 }
 
 .contact-links {
     display: flex;
-    flex-direction: column wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.1rem;
 }
+
+.link {
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    flex-grow: 2;
+    transition: 0.5s;
+    
+}
+.contact-links-svg {
+    max-width: 30px;
+    color: #fff;
+    padding-right: 8px;
+    filter: invert(100%);
+   
+}
+
+.link:hover {
+    transform: translateY(-5px);
+}
+/* CONTACT SECTION - START */
+
+ /* FOOTER - START */
+ footer {
+    background: linear-gradient(180deg, rgba(83,83,83,1) 0%, rgba(61,61,61,1) 100%);
+    color: #fff;
+    font-weight: 400;
+    padding: 15px 15px;
+    line-height: 1.5;
+    font-size: 1.05rem;
+    
+ }
+
+ .owner {
+     color: #fff;
+     font-weight: 500;
+     font-style: italic;
+ }
+
+ .owner:hover {
+     border-bottom: 1px solid #fff;
+ }
+
+ footer p:first-child{
+     padding-bottom: 15px;
+     text-align: left;
+ }
+
+ footer p:last-child {
+     text-align: right;
+ }
