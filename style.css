@@ -297,7 +297,7 @@ hr{
     background: linear-gradient(180deg, rgba(83,83,83,1) 0%, rgba(61,61,61,1) 100%);
     color: #fff;
     font-weight: 400;
-    padding: 15px 15px;
+    padding: 15px 25px;
     line-height: 1.5;
     font-size: 1.05rem;
     
@@ -315,9 +315,65 @@ hr{
 
  footer p:first-child{
      padding-bottom: 15px;
-     text-align: left;
+     text-align: center;
  }
 
  footer p:last-child {
      text-align: right;
  }
+ /* FOOTER - END */
+
+  /* ##MEDIA QUERIES */
+ /* #BreakPoint - 2560px */
+  @media (max-width:2560px) {
+    .nav-list {
+        font-size: 35px;
+    }
+    .project-grid {
+        max-width: 1480px;
+    }
+    .contact-links {
+        max-width: 1200px;
+        font-size: 1.4rem;
+    }
+    .contact-links-svg {
+        max-width: 60px;       
+    }
+    footer {
+        font-size: 1.4rem;
+        
+     }
+  }
+
+  /* #BreakPoint - 1800px */
+  @media (max-width:1800px) {
+    footer {
+        font-size: 1.2rem;
+        
+     }
+     .nav-list {
+        font-size: 35px;
+    }
+    .contact-links {
+        max-width: 1000px;
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+  }
+
+    /* #BreakPoint - 1500px */
+    @media (max-width:1500px) {
+        .contact-links-svg {
+            max-width: 50px;       
+        }
+        .contact-links {
+            font-size: 1.3rem;
+        }
+        h2 {
+            width: 100%;
+        }
+      }
+    /* #BreakPoint - 1200px */
+    @media (max-width:1200px) {
+
+    }
